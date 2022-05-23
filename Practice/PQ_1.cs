@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-public class Solution
+public class PQ_1
 {
     public int[] solution(string[] id_list, string[] report, int k)
     {
@@ -44,7 +44,7 @@ public class Solution
     }
     public static void Main()
     {
-        Solution sol = new Solution();
+        PQ_1 sol = new PQ_1();
         Dictionary<string, HashSet<string>> reportDic = new Dictionary<string, HashSet<string>>();
         Dictionary<string, HashSet<string>> resultDic = new Dictionary<string, HashSet<string>>();
         string[] id_list = { "muzi", "frodo", "apeach", "neo" };
