@@ -42,13 +42,13 @@ public class PQ_1
 
         return answer;
     }
-    public static void Main()
-    {
-        PQ_1 sol = new PQ_1();
-        Dictionary<string, HashSet<string>> reportDic = new Dictionary<string, HashSet<string>>();
-        Dictionary<string, HashSet<string>> resultDic = new Dictionary<string, HashSet<string>>();
-        string[] id_list = { "muzi", "frodo", "apeach", "neo" };
-        string[] report = { "muzi frodo", "apeach frodo", "frodo neo", "muzi neo", "apeach muzi" };
-        sol.solution(id_list, report, 2);
-    }
+    //public static void Main()
+    //{
+    //    PQ_1 sol = new PQ_1();
+    //    Dictionary<string, HashSet<string>> reportDic = new Dictionary<string, HashSet<string>>();
+    //    Dictionary<string, HashSet<string>> resultDic = new Dictionary<string, HashSet<string>>();
+    //    string[] id_list = { "muzi", "frodo", "apeach", "neo" };
+    //    string[] report = { "muzi frodo", "apeach frodo", "frodo neo", "muzi neo", "apeach muzi" };
+    //    sol.solution(id_list, report, 2);
+    //}
 }
