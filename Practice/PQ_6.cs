@@ -29,14 +29,14 @@ public class PQ_6
         return answer;
     }
 
-    public static void Main()
-    {
-        PQ_6 solution = new PQ_6();
-        string[] strings = new string[] { "sun", "bed", "car" };
-        string[] answer = solution.solution(strings, 1);
-        foreach (string s in answer)
-        {
-            Console.WriteLine(s);
-        }
-    }
+    //public static void Main()
+    //{
+    //    PQ_6 solution = new PQ_6();
+    //    string[] strings = new string[] { "sun", "bed", "car" };
+    //    string[] answer = solution.solution(strings, 1);
+    //    foreach (string s in answer)
+    //    {
+    //        Console.WriteLine(s);
+    //    }
+    //}
 }
