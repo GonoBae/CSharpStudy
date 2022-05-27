@@ -22,9 +22,9 @@ public class PQ_3
         return answer;
     }
 
-    public static void Main()
-    {
-        PQ_3 solution = new PQ_3();
-        Console.WriteLine(solution.solution("try hello world"));
-    }
+    //public static void Main()
+    //{
+    //    PQ_3 solution = new PQ_3();
+    //    Console.WriteLine(solution.solution("try hello world"));
+    //}
 }
