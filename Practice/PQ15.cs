@@ -22,10 +22,10 @@ public class PQ_15
         return answer;
     }
 
-    public static void Main()
-    {
-        PQ_15 solution = new PQ_15();
-        string s = "qwer";
-        string answer = solution.solution(s);
-    }
+    //public static void Main()
+    //{
+    //    PQ_15 solution = new PQ_15();
+    //    string s = "qwer";
+    //    string answer = solution.solution(s);
+    //}
 }
