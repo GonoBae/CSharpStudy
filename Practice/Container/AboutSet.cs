@@ -8,11 +8,11 @@ namespace Practice
 {
     class AboutSet
     {
-        public static void Main()
+        public static void Main1()
         {
             SortedSet<int> iSet = new SortedSet<int>();
             iSet.Add(1);
-            Console.WriteLine(iSet.Add(2));
+            iSet.Add(1);
         }
     }
 }
