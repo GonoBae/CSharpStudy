@@ -36,7 +36,7 @@ class MyLinkedList<T>
 
 class Program
 {
-    static void Main()
+    static void Main2()
     {
         MyLinkedList<int> linkedList = new MyLinkedList<int>();
         linkedList.Add(1);
