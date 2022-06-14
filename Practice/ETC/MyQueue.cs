@@ -25,7 +25,7 @@ namespace MyQueue
         public void Enqueue(T value)
         {
             Node<T> node = new Node<T>(value);
-            if (last == null) first = last = node;
+            if (first == null) first = last = node;
             else
             {
                 last.next = node;
