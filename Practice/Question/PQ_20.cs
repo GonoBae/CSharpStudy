@@ -33,7 +33,7 @@ namespace Practice.Question.PQ_20
             return answer;
         }
 
-        public static void Main()
+        public static void Main1()
         {
             PQ_20 solution = new PQ_20();
             Console.WriteLine(solution.solution(13, 17));
