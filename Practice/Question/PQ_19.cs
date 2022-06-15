@@ -10,14 +10,17 @@ namespace Practice.Question
     {
         int Solution(string _str)
         {
-            int count = 0;
-            count = _str.Split(' ').Length;
+            string[] word = _str.Split(' ');
+            int count = word.Length;
+
+            if (word[0] == "") count--;
+            if(word[word.Length - 1] == "") count--;
             return count;
         }
-        public static void Main()
+        public static void Main1()
         {
             PQ_19 p = new PQ_19();
-            p.Solution("std std std");
+            Console.WriteLine(p.Solution(" std std std sds"));
         }
     }
 }
