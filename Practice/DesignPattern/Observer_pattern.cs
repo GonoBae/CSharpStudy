@@ -12,20 +12,20 @@ interface Subscriber
     void update(string msg);
 }
 
-class Gono : Youtuber
+class Holy : Youtuber
 {
     private List<Subscriber> subscribers = new List<Subscriber>();
 
-    public void eatFood()
+    public void food()
     {
-        Console.WriteLine("먹방");
-        notify("먹방 중입니다.");
+        Console.WriteLine("먹 방");
+        notify("먹방 방송이 시작되었습니다.");
     }
 
     public void dance()
     {
-        Console.WriteLine("춤방");
-        notify("춤방 중입니다.");
+        Console.WriteLine("춤 방");
+        notify("춤방 방송이 시작되었습니다.");
     }
 
     public void notify(string msg)
@@ -71,23 +71,23 @@ class Land : Subscriber
     }
 }
 
-class Program2
+class ObserverPattern
 {
     public static void Main1()
     {
-        Gono gono = new Gono();
+        Holy holy = new Holy();
         Danny danny = new Danny();
         Lala lala = new Lala();
         Land land = new Land();
 
-        gono.subscribe(danny);
-        gono.subscribe(lala);
-        gono.subscribe(land);
+        holy.subscribe(danny);
+        holy.subscribe(lala);
+        holy.subscribe(land);
 
-        gono.eatFood();
+        holy.food();
 
-        gono.unsubscribe(lala);
+        holy.unsubscribe(lala);
 
-        gono.dance();
+        holy.dance();
     }
 }

@@ -2,7 +2,13 @@
 using System.Collections.Generic;
 using System.Diagnostics.CodeAnalysis;
 
-class Test
+namespace Test
 {
-    
+    class Test
+    {
+        public static void Main1()
+        {
+            Console.WriteLine("Test");
+        }
+    }
 }
