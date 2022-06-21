@@ -61,7 +61,7 @@
 
     public class CP_Success
     {
-        public static void Main1()
+        public static void Main()
         {
             Heater heater = new Heater();
             Lamp lamp = new Lamp();
