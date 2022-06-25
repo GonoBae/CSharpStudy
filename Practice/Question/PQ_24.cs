@@ -37,7 +37,7 @@ namespace Practice.Question.PQ_24
             return answer;
         }
 
-        public static void Main()
+        public static void Main1()
         {
             Solution solution = new Solution();
             int[,] sizes = { { 60, 50 }, { 30, 70 }, { 60, 30 }, { 80, 40 } };
