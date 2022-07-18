@@ -18,7 +18,7 @@ namespace Practice.Question.PQ_25
             return answer;
         }
 
-        public static void Main()
+        public static void Main1()
         {
             Solution so = new Solution();
             long[] answer = so.solution(2, 5);
